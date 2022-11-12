@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+	<meta charset="UTF-8">
+	<title> - Andar - Zona Sur -  </title>
+	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- codigo de colores y estilos escrito por nosotros -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Icono en pestaña -->
+	<link rel="icon" href="img/favicon.ico">
+	<!-- Tipografia poppins -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+<body>
+<header>
+	<div class="container">
+		<div class="row top">
+			<!-- en esta linea cambiamos nuestro logo. -->
+			<div class="col-md-4"><a href="#home" data-ancla="home" class="off">
+				<img src="img/logoconviajantes.png" alt="logo polyfansok" class="logo" width="500px"></a></div>
+			<div class="col-md-3"></div>
+			<div class="col-md-5">
+			
+			<div class="nombres">
+          <div class="asesora">
+				    <p class="aseso">Asesorate:</p>
+				    <p class="aseso">1132825891</p>
+            <p class="aseso">1132827160</p>
+          </div>
+          <div class="imagen1"><img  class="telefono" src="img/firma-digital.png" title="telefono" ></div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="principal vertical-centered-text" id="home">
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-300" src="img/banner.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-300" src="img/banner2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-300" src="img/banner3.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-300" src="img/banner4.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-300" src="img/banner5.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="flase"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+	
+	  <div class="form">
+		<h2 class="consul">Consultanos</h2>
+        <form action="mailto:pablito8108@gmail.com" method="post"> <div class="elem-group"> 
+          <input type="text" id="name" style="width:100px;margin-top:40px;min-width:320px" name="visitor_name" placeholder="Su nombre aquí..." pattern=[A-Z\sa-z]{3,20} required> </div> 
+          <div class="elem-group"> 
+          <input type="email" id="email" style="width:100px;margin-top:40px;min-width:320px" name="visitor_email" placeholder="ejemplo@email.com" required> </div>
+          <div class="elem-group"> 
+			    <input type="text" id="ciudad" style="width:100px;margin-top:40px;min-width:320px" name="visitor_email" placeholder="Ciudad" > </div>
+          <div class="elem-group"> 
+          <input type="number" style="width:100px;margin-top:40px;min-width:320px" id="Telefono de Contacto" name="visitor_name" placeholder="Numero de telefono"  required>
+          </div>  <div class="elem-group"> 
+          <textarea id="message" name="visitor_message" style="width:100px;margin-top:40px;min-width:320px" placeholder="Escribe tu mensaje aquí." ></textarea> </div> 
+          <button type="submit">Enviar Consulta</button>
+        </form>
+        </div>   
+</div>
+
+<div class="desple" >
+<div class="container mt-3">
+  <h2>Quienes pueden afliarse a Andar?</h2>
+  <p>En todos los planes, podras incoorporar al <strong>GRUPO FAMILIAR</strong></p>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">RELACIÓN DE DEPENDENCIA</a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+          Todos aquellos que cuenten con Recibo de Sueldo<br>
+          Dni, Recibo de Sueldo y Dni del grupo Familiar, podes sumar aportes con tu Pareja.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">MONOTRIBUTO</a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Todos los Monotributistas con Dni, Formulario 184, Credencial de Pagos 152, ultimo pago de Monotributo.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">ADHERENTES PARTICULARES</a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Todas las personas que no tengan aportes o sean Responsables Inscriptos, con Dni solamente.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="nosotros orange" id="nosotros2">
+
+  
+
+  <div class="imagenesCobertura">
+  <img class="primera" src="img/plancoso1.jpg" title="plan1">
+  <img class="primera" src="img/plancoso2.jpg" title="plan1">
+  </div>
+
+</div>
+
+<div class="video" id="films">
+
+  <div class="videoCobertura">
+    <video class="videourg" src="video/video1.mp4" autoplay muted loop type="video/mp4" width="400px">
+  </div>
+  <div> <img class="videourg" src="img/urg.jpg" alt="Urgencias" title="Urgencias" width="400px"></div>
+   
+  
+  
+
+</div>
+
+
+
+<!-- <div class="nosotros orange" id="nosotros">
+	<div class="card-group mt-3">
+	<div class="card" style="width: 18rem;">
+		<img class="card-img-top" src="img/plan 1.jpg" alt="plan1">
+		<div class="card-body">
+		  <h5 class="card-title">Plan Clásico</h5>
+		  <p class="card-text">
+			<div class="body">
+				<p>Cobertura médica <span class="suffix">a nivel nacional</span></p>
+				<p>40-70% de descuento <span class="suffix">en amplia red de farmacias</span></p>
+				<p>100% de cobertura <span class="suffix">en tratamientos de alta complejidad</span></p>
+				<p>Internaciones <span class="suffix">en habitación compartida</span></p>
+				<p>Urgencias y <span class="suffix">emergencias</span></p>
+				<p>Plan materno <span class="suffix">infantil</span></p>
+				<p>Coseguro <span class="suffix">en consultas</span></p>
+				<p>Cartilla de <span class="suffix">prestadores</span></p>
+        <p>Asistencia al <span class="suffix">viajero</span></p>
+			  </div>
+		  </p>
+		  <a href="https://wa.me/+5491132825891?text=Hola! me gustaria recibir informacion de los planes de Andar" class="btn btn-primary" target="_blank">Asesorate aquí</a>
+		</div>
+	  </div>
+	  <div class="card" style="width: 18rem;">
+		<img class="card-img-top" src="img/plan 2.jpg" alt="plan2">
+		<div class="card-body">
+		  <h5 class="card-title">Plan Especial</h5>
+		  <p class="card-text">
+			<div class="body"></div>
+				<p>Cobertura médica <span class="suffix">a nivel nacional</span></p>
+                <p>40-70% de descuento <span class="suffix">en amplia red de farmacias</span></p>
+                <p>100% de cobertura <span class="suffix">en tratamientos de alta complejidad</span></p>
+                <p>Internaciones <span class="suffix">en habitación compartida</span></p>
+                <p>Urgencias y <span class="suffix">emergencias</span></p>
+                <p>Plan materno <span class="suffix">infantil</span></p>
+                <p>SIN coseguro <span class="suffix">en consultas</span></p>
+                <p>Mayor cartilla de <span class="suffix">prestadores</span></p>
+                <p>Asistencia al <span class="suffix">viajero</span></p>
+			</div>
+		  </p>
+		  <a href="https://wa.me/+5491132825891?text=Hola! me gustaria recibir informacion de los planes de Andar" class="btn btn-primary" target="_blank">Asesorate aquí</a>
+		</div>
+	  </div>
+	  <div class="card" style="width: 18rem;">
+		<img class="card-img-top" src="img/plan 3.jpg" alt="plan3">
+		<div class="card-body">
+		  <h5 class="card-title">Plan Plus</h5>
+		  <p class="card-text">
+			<div class="body">
+				<p>Cobertura médica <span class="suffix">a nivel nacional</span></p>
+            	<p>40-70% de descuento <span class="suffix">en amplia red de farmacias</span></p>
+            	<p>100% de cobertura <span class="suffix">en tratamientos de alta complejidad</span></p>
+            	<p>Internaciones <span class="suffix">en habitación invidivual</span></p>
+            	<p>Urgencias y <span class="suffix">emergencias</span></p>
+            	<p>Plan materno <span class="suffix">infantil</span></p>
+            	<p>SIN coseguro <span class="suffix">en consultas</span></p>
+            	<p>Amplia cartilla de <span class="suffix">prestadores</span></p>
+            	<p>Asistencia al <span class="suffix">viajero</span></p>
+			</div>
+		</p>
+		  <a href="https://wa.me/+5491132825891?text=Hola! me gustaria recibir informacion de los planes de Andar" class="btn btn-primary" target="_blank">Asesorate aquí</a>
+		</div>
+	  </div>
+	  </div>
+</div>
+
+<div class="page-section bg-light">
+    <div class="container">
+      <div class="text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="subhead">Tus beneficios</div>
+        <div class="divider mx-auto"></div>
+      </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 col-xl-4 py-4 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+            <div class="features">
+              <div class="header mb-3">
+                <img class="benefits-icon" src="img/bx-book-open.svg" alt="">
+              </div class="subtitulos">
+              <h5>Amplia cartilla médica</h5>
+              <p>Red de prestaodres de primer nivel</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-4 py-4 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+            <div class="features">
+              <div class="header mb-3">
+                <img class="benefits-icon" src="img/bx-plus-medical.svg" alt="">
+              </div class="subtitulos">
+              <h5>Urgencias y emergencias</h5>
+              <p>Atención médica a domicilio</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-4 py-4 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+            <div class="features">
+              <div class="header mb-3">
+                <img class="benefits-icon" src="img/bxs-capsule.svg" alt="">
+              </div class="subtitulos">
+              <h5>Cobertura en medicamentos</h5>
+              <p>40-70% de descuento en farmacias seleccionadas</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-4 py-4 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+            <div class="features">
+              <div class="header mb-3">
+                <img class="benefits-icon" src="img/bxs-buildings.svg" alt="">
+              </div class="subtitulos">
+              <h5>Cobertura en internación</h5>
+              <p>Atención sin cargo</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-4 py-4 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+            <div class="features">
+              <div class="header mb-3">
+                <img class="benefits-icon" src="img/bxs-heart.svg" alt="">
+              </div class="subtitulos">
+              <h5>Salud mental</h5>
+              <p>Psicología y psiquiatría</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-4 py-4 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+            <div class="features">
+              <div class="header mb-3">
+                <img class="benefits-icon" src="img/bx-glasses-alt.svg" alt="">
+              </div class="subtitulos">
+              <h5>Ópticas y ortopedias</h5>
+              <p>Amplia red de prestadores</p>
+            </div>
+          </div>
+        </div> -->
+
+    </div> <!-- .container -->
+  </div>
+
+<footer class="fondo">
+	<div class="container" id="contacto">
+		<div class="row">
+			<div class="col-md-12">
+					<h1>CONTACTO</h1>
+      </div>
+      <div class="col-2">
+        <p class="nom1"> Envianos un mail!</p>
+        <a href="mailto:sergioandar@gmail.com"><img class="imgc" src="img/001-mail.svg" alt="mail"></a></div>
+      <div class="col-2">
+        <p class="nom1"> Seguinos en Facebook!</p>
+        <a href=""  target="_blank"><img class="imgc" src="img/002-facebook-logo.svg" alt=""></a></div>
+      <div class="col-2">
+        <p class="nom1"> Seguinos en Instagram!</p>
+        <a target="_blank" href="https://www.instagram.com/mabelasesoraandar/" ><img class="imgc" src="img/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
+    </div>
+  </div>
+	<a href="https://wa.me/+5491132825891?text=Hola! me gustaria recibir informacion de los planes de Andar" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+</footer>
+<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script>
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+	
+</script>
+</body>
+</html>
